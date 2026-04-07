@@ -32,7 +32,7 @@ steps:
     args:
       - 'cp'
       - 'model-training-repo/bank_campaign_model_training.py'
-      - 'gs:// us-central1-mlops-composer-1190fa92-bucket/dags'
+      - 'gs://us-central1-mlops-composer-1190fa92-bucket/dags'
 
 images:
   - 'us-central1-docker.pkg.dev/charles-schwab-poc-465918/mlops-repo/bank-campaign-model:latest'
